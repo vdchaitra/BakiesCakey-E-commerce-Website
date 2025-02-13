@@ -1,0 +1,85 @@
+.login_popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 471%;
+    background-color: rgba(248, 226, 226, 0.449);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+
+}
+.login_popup p{
+    font-size: 15px;
+}
+.login_popup_container{
+
+    width: max(23vw,330px);
+    color: black;
+    background-color: #f0d7a7;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 100px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+.login_popup_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.login_popup_title img{
+    width: 26px;
+    cursor: pointer;
+}
+.login_popup_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.login_popup_inputs input{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    color: #bd9172;
+}
+.login_popup_container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #894e3f;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.login_popup_condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+    font-size: 10px;
+}
+.login_popup_condition p{
+    font-size: 10px;
+}
+.login_popup_condition input{
+    margin-top: 5px;
+}
+.login_popup p span{
+    color: red;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login_popup .forget{
+    cursor: pointer;
+    color: red;
+}

@@ -1,0 +1,28 @@
+.occasion_display{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.occasion_display .show{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+.occasion_display a{
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(196, 80, 80);
+}
+.occasion_display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.occasion_display_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}

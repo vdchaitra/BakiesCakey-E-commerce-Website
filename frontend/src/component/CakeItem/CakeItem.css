@@ -1,0 +1,67 @@
+.cake_item{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fa;
+}
+.cake_item_image{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px;
+}
+.cake_item_info{
+    padding: 20px;
+}
+.cake_item_name_rating p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cake_item_desc{
+    color: #894e3f;
+    font-size: 12px;
+}
+.cake_item_price{
+    color: #c9541e;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.cake_item_img_container{
+    position: relative;
+}
+.cake_item_img_container .add{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.cake_item_counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+.cake_item_counter p{
+    font-size: 10px;
+}
+.cake_item_counter img{
+    width: 20px;
+}
+.wishlist {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

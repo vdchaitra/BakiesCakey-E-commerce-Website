@@ -1,0 +1,56 @@
+.price_menu_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px;
+}
+
+.price_menu_list h1 {
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #894e3f;
+}
+
+.price_menu_list img {
+    width: 370px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 30%;
+    transition: 2ms;
+}
+
+.price_list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 12px;
+}
+
+
+@media (max-width: 480px)  {
+    .price_menu_list img {
+        width: 100px;
+        height: auto; 
+    }
+}
+@media (min-width: 481px) and (max-width:600px) {
+    .price_menu_list img {
+        width: 150px;
+        height: auto; 
+    }
+}
+@media (min-width: 601px) and (max-width:1000px) {
+    .price_menu_list img {
+        width: 250px;
+        height: auto; 
+    }
+}
+@media (min-width: 1001px) and (max-width:1800px) {
+    .price_menu_list img {
+        width: 420px;
+        height: auto; 
+    }
+}
+

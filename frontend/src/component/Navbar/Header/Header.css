@@ -1,0 +1,133 @@
+.header .content{
+	padding-left: 100px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
+
+.header .header-contents .slide {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	display: none;
+	
+}
+
+.header .header-contents .slide.active {
+	display: flex;
+}
+
+.header .header-contents .slide .content {
+	flex: 1 1 40rem;
+	animation: fadeLeft .4s linear .4s backwards;
+	
+}
+
+.header .header-contents .slide .content span {
+	color: #000;
+	font-size: 2.5rem;
+	
+}
+
+.header .header-contents .slide .content h3 {
+	font-size: 6rem;
+	color: #222;
+	padding: .5rem 0;
+}
+
+.header .header-contents .slide .img {
+	flex: 1 1 40rem;
+	animation: fadeLeft .4s linear .4s backwards;
+}
+
+.header .header-contents .slide .img img {
+	width: 100%;
+	animation: fadeUp .4s linear;
+	border-top-left-radius: 80%;
+	height: 550px;
+}
+
+.header #next-slide,
+.header #prev-slide {
+	animation: fadeLeft .4s linear .4s backwards;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 5rem;
+	width: 5rem;
+	line-height: 5rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+	border: 0.1rem solid rgba(0, 0, 0, 0.7);
+	text-align: center;
+	background: var(--color);
+	font-size: 2rem;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 50px;
+	
+}
+
+.header #next-slide:hover,
+.header #prev-slide:hover {
+	background: #222;
+	color: #fff;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header #prev-slide {
+	left: 2rem;
+}
+
+.header #next-slide {
+	right: 2rem;
+}
+@media screen and (max-width: 900px) {
+
+	
+	.header .content{
+		padding-top: 100px;
+		padding-left: 100px;
+		background-size: cover;
+		background-position: center;
+
+	}
+	.header .header-contents .slide .content span {
+		color: #000;
+		font-size: 1.5rem;
+		
+	}
+	.header .header-contents .slide .content h3 {
+		font-size: 2rem;
+		color: #222;
+		padding: .5rem 0;
+	}
+	.header .header-contents .slide .img img {
+		width: 100%;
+		animation: fadeUp .4s linear;
+		border-top-left-radius: 80%;
+		height: 450px;
+	}
+	.header .header-contents .slide {
+		display: flex;
+		align-items: c;
+		flex-wrap: wrap;
+		gap: 1.5rem;
+		display: none;
+		
+	}
+
+}
+.btn-play {
+    position: relative;
+    display: block;
+    box-sizing: content-box;
+    width: 16px;
+    height: 26px;
+    border-radius: 100%;
+    border: none;
+    outline: none !important;
+    padding: 18px 20px 20px 28px;
+    background: #FFFFFF;
+}

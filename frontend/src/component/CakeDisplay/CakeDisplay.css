@@ -1,0 +1,28 @@
+.cake_display{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.cake_display .view{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+.cake_display a{
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(196, 80, 80);
+}
+.cake_display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.cake_display_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
